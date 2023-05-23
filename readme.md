@@ -1,5 +1,11 @@
-Reproduction steps:
-
+```
+git clone git@github.com:brillout/vps-mui
+cd vps-mui/
+pnpm install
+pnpm run build
+pnpm run server:prod
+```
+Same as single line (copy-paste me):
 ```
 git clone git@github.com:brillout/vps-mui && cd vps-mui/ && pnpm install && pnpm run build && pnpm run server:prod
 ```
@@ -7,7 +13,7 @@ git clone git@github.com:brillout/vps-mui && cd vps-mui/ && pnpm install && pnpm
 Then go to [localhost:3000](https://localhost:3000) and observe error:
 
 ```
-~/tmp/vite-ssr-project (main*) p server:prod
+~/tmp/vite-ssr-project (main*) pnpm run server:prod
 
 > @ server:prod /home/rom/tmp/vite-ssr-project
 > cross-env NODE_ENV=production ts-node ./server/index.ts
