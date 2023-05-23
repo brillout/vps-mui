@@ -1,5 +1,11 @@
-Reproduction steps:
-
+```
+git clone git@github.com:brillout/vps-mui
+cd vps-mui/
+pnpm install
+pnpm run build
+pnpm run server:prod
+```
+Same as single line (copy-paste me):
 ```
 git clone git@github.com:brillout/vps-mui && cd vps-mui/ && pnpm install && pnpm run build && pnpm run server:prod
 ```
