@@ -1,5 +1,5 @@
 import { Counter } from './Counter'
-import MenuIcon from '@mui/icons-material/Menu' // add this
+import MenuIcon from '@mui/icons-material/Menu'
 console.log('MenuIcon', MenuIcon)
 
 export { Page }
