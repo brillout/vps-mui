@@ -8,7 +8,6 @@ const noExternal: string[] = []
 if (isProd) {
   noExternal.push(
     ...[
-      // prettier-ignore
       // MUI needs to be pre-processed by Vite in production: https://github.com/brillout/vite-plugin-ssr/discussions/901
       '@mui/base',
       '@mui/icons-material',
